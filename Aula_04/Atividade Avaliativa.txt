@@ -1,0 +1,22 @@
+select * from clientes
+where id_cliente >4 and id_cliente<10
+order by nome asc
+
+
+select id_cliente, cpf, nome, sexo, idade from clientes
+where sexo = 'feminino'
+order by nome desc
+
+select id_cliente, cpf, nome, sexo, idade from clientes
+where not sexo = 'feminino'
+order by nome desc
+
+select id_cliente, senha from clientes
+where senha = '123456' and id_cliente = 3
+
+- Listar os Usuarios cadastrados no Banco
+- Quantos Usuarios foram cadastrados no ultimo mês?
+- Criar script restaurar informações de login de 1 usuário!
+- Criar script selecão de Livros cadastrados?
+- Criar script de livros emprestados por cliente?
+- Elaborar 3 perguntas utilizando as clausulas: Distinct, Not , Top
