@@ -1,0 +1,3 @@
+SELECT COUNT(*) 
+FROM Usuario 
+WHERE Data_Cadastro >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH);
